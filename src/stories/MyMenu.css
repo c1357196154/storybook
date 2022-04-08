@@ -1,0 +1,46 @@
+.menu_nav {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .draw {
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #333333;
+    transition: 0.3s;
+    position: absolute;
+    outline: none;
+    top: 20px;
+  }
+  .draw:first-of-type,
+  .draw:last-of-type {
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #333333;
+    position: absolute;
+    outline: none;
+    transition: 0.3s;
+  }
+  .draw:first-of-type {
+    top: 0px;
+  }
+  
+  .draw:last-of-type {
+    top: 40px;
+  }
+  .miss {
+    background: transparent;
+  }
+  .closeDown {
+    top: 20px !important;
+    transform: rotate(45deg);
+    background: #5bbe9f !important;
+  }
+  .closeTop {
+    top: 20px !important;
+    transform: rotate(-45deg);
+    background: #5bbe9f !important;
+  }
